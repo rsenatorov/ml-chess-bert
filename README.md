@@ -4,6 +4,8 @@ A research project exploring whether master-level chess play can be achieved thr
 
 **Final Result:** A BERT-like transformer that plays at approximately **1500 Elo strength** through direct policy evaluation, trained on 6-piece tablebases and 100,000 Stockfish self-play games.
 
+![bestaimlengineerv2](https://github.com/user-attachments/assets/fa058d5d-1a8c-4f73-9d4c-e30b28e1268b)
+
 ---
 
 ## Overview
