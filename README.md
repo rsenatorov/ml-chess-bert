@@ -1171,7 +1171,7 @@ If you use this code or build upon this work, please cite:
   title={ChessBert: A Tablebase and Stockfish-Trained Chess Transformer},
   author={[Robert Senatorov]},
   year={2025},
-  url={[Repository URL]}
+  url={[https://github.com/rsenatorov/ml-chess-bert.git]}
 }
 ```
 
