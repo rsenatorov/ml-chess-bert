@@ -1071,7 +1071,7 @@ tkinter                # Usually included with Python
 
 ```bash
 # Clone repository
-git clone <repository-url>
+git clone https://github.com/rsenatorov/ml-chess-bert.git
 cd ml_chess_bert
 
 # Install dependencies
