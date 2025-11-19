@@ -1,0 +1,130 @@
+2025-10-11 23:20:05,661 | train | INFO | Starting training (FP32, TF32 disabled)
+2025-10-11 23:20:06,902 | train | INFO | No previous checkpoint. Fresh run.
+2025-10-11 23:20:06,902 | train | INFO | === E0000 Train on shard_00.jsonl ===
+2025-10-11 23:20:26,363 | train | INFO | Indexed 1,342,059 lines from shard_00.jsonl
+2025-10-12 01:04:28,000 | train | INFO | Shard shard_00.jsonl done in 1h44m | GPU mem 2165MB (peak 7898MB)
+2025-10-12 01:04:28,097 | train | INFO | === E0001 Validate on shard_09.jsonl ===
+2025-10-12 01:04:45,577 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-12 01:38:57,267 | train | INFO | VAL loss=0.0542 edge=25.90% promo=90.15% wdl=55.06% in 34m11s | GPU mem 1366MB (peak 7898MB)
+2025-10-12 01:39:04,205 | train | INFO | Checkpoint saved for epoch 1
+2025-10-12 01:39:04,206 | train | INFO | === E0001 Train on shard_01.jsonl ===
+2025-10-12 01:39:35,760 | train | INFO | Indexed 1,332,580 lines from shard_01.jsonl
+2025-10-12 03:22:22,727 | train | INFO | Shard shard_01.jsonl done in 1h42m | GPU mem 2165MB (peak 7898MB)
+2025-10-12 03:22:22,832 | train | INFO | === E0002 Validate on shard_09.jsonl ===
+2025-10-12 03:22:42,065 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-12 03:56:52,504 | train | INFO | VAL loss=0.0503 edge=29.53% promo=90.20% wdl=58.65% in 34m10s | GPU mem 1366MB (peak 7898MB)
+2025-10-12 03:56:59,634 | train | INFO | Checkpoint saved for epoch 2
+2025-10-12 03:56:59,635 | train | INFO | === E0002 Train on shard_02.jsonl ===
+2025-10-12 03:57:28,996 | train | INFO | Indexed 1,309,634 lines from shard_02.jsonl
+2025-10-12 05:38:47,102 | train | INFO | Shard shard_02.jsonl done in 1h41m | GPU mem 2165MB (peak 7898MB)
+2025-10-12 05:38:47,204 | train | INFO | === E0003 Validate on shard_09.jsonl ===
+2025-10-12 05:39:04,223 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-12 06:13:13,957 | train | INFO | VAL loss=0.0479 edge=32.26% promo=90.20% wdl=61.51% in 34m09s | GPU mem 1366MB (peak 7898MB)
+2025-10-12 06:13:20,745 | train | INFO | Checkpoint saved for epoch 3
+2025-10-12 06:13:20,745 | train | INFO | === E0003 Train on shard_03.jsonl ===
+2025-10-12 06:13:40,146 | train | INFO | Indexed 1,335,331 lines from shard_03.jsonl
+2025-10-12 07:56:53,791 | train | INFO | Shard shard_03.jsonl done in 1h43m | GPU mem 2165MB (peak 7898MB)
+2025-10-12 07:56:53,895 | train | INFO | === E0004 Validate on shard_09.jsonl ===
+2025-10-12 07:57:11,450 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-12 08:31:19,262 | train | INFO | VAL loss=0.0487 edge=31.79% promo=90.20% wdl=60.40% in 34m07s | GPU mem 1366MB (peak 7898MB)
+2025-10-12 08:31:26,893 | train | INFO | Checkpoint saved for epoch 4
+2025-10-12 08:31:26,894 | train | INFO | === E0004 Train on shard_04.jsonl ===
+2025-10-12 08:31:44,811 | train | INFO | Indexed 1,328,381 lines from shard_04.jsonl
+2025-10-12 10:14:27,131 | train | INFO | Shard shard_04.jsonl done in 1h42m | GPU mem 1365MB (peak 7898MB)
+2025-10-12 10:14:27,257 | train | INFO | === E0005 Validate on shard_09.jsonl ===
+2025-10-12 10:14:45,542 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-12 10:48:53,245 | train | INFO | VAL loss=0.0489 edge=32.80% promo=90.20% wdl=59.67% in 34m07s | GPU mem 1366MB (peak 7898MB)
+2025-10-12 10:49:00,959 | train | INFO | Checkpoint saved for epoch 5
+2025-10-12 10:49:00,959 | train | INFO | === E0005 Train on shard_05.jsonl ===
+2025-10-12 10:49:19,326 | train | INFO | Indexed 1,357,107 lines from shard_05.jsonl
+2025-10-12 13:42:56,789 | train | INFO | Shard shard_05.jsonl done in 2h53m | GPU mem 2165MB (peak 7898MB)
+2025-10-12 13:42:56,912 | train | INFO | === E0006 Validate on shard_09.jsonl ===
+2025-10-12 13:43:18,899 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-12 14:18:55,375 | train | INFO | VAL loss=0.0503 edge=34.69% promo=90.20% wdl=59.96% in 35m36s | GPU mem 1366MB (peak 7898MB)
+2025-10-12 14:19:02,901 | train | INFO | Checkpoint saved for epoch 6
+2025-10-12 14:19:02,902 | train | INFO | === E0006 Train on shard_06.jsonl ===
+2025-10-12 14:19:21,831 | train | INFO | Indexed 1,336,504 lines from shard_06.jsonl
+2025-10-12 16:02:22,521 | train | INFO | Shard shard_06.jsonl done in 1h42m | GPU mem 1365MB (peak 7898MB)
+2025-10-12 16:02:22,668 | train | INFO | === E0007 Validate on shard_09.jsonl ===
+2025-10-12 16:02:42,033 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-12 16:36:51,364 | train | INFO | VAL loss=0.0541 edge=36.32% promo=90.20% wdl=59.45% in 34m09s | GPU mem 1366MB (peak 7898MB)
+2025-10-12 16:36:58,817 | train | INFO | Checkpoint saved for epoch 7
+2025-10-12 16:36:58,817 | train | INFO | === E0007 Train on shard_07.jsonl ===
+2025-10-12 16:37:18,700 | train | INFO | Indexed 1,341,890 lines from shard_07.jsonl
+2025-10-12 18:20:36,079 | train | INFO | Shard shard_07.jsonl done in 1h43m | GPU mem 2165MB (peak 7898MB)
+2025-10-12 18:20:36,212 | train | INFO | === E0008 Validate on shard_09.jsonl ===
+2025-10-12 18:20:55,802 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-12 18:55:03,471 | train | INFO | VAL loss=0.0528 edge=37.53% promo=90.20% wdl=60.55% in 34m07s | GPU mem 1366MB (peak 7898MB)
+2025-10-12 18:55:11,506 | train | INFO | Checkpoint saved for epoch 8
+2025-10-12 18:55:11,506 | train | INFO | === E0008 Train on shard_08.jsonl ===
+2025-10-12 18:55:31,729 | train | INFO | Indexed 1,336,016 lines from shard_08.jsonl
+2025-10-12 21:17:34,717 | train | INFO | Shard shard_08.jsonl done in 2h22m | GPU mem 1365MB (peak 7898MB)
+2025-10-12 21:17:34,841 | train | INFO | === E0009 Validate on shard_09.jsonl ===
+2025-10-12 21:17:58,925 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-12 21:56:37,747 | train | INFO | VAL loss=0.0503 edge=34.81% promo=90.20% wdl=58.72% in 38m38s | GPU mem 1366MB (peak 7898MB)
+2025-10-12 21:56:46,656 | train | INFO | Checkpoint saved for epoch 9
+2025-10-12 21:56:46,657 | train | INFO | === E0009 Train on shard_00.jsonl ===
+2025-10-12 21:57:10,085 | train | INFO | Indexed 1,342,059 lines from shard_00.jsonl
+2025-10-12 23:42:15,490 | train | INFO | Shard shard_00.jsonl done in 1h45m | GPU mem 2165MB (peak 7898MB)
+2025-10-12 23:42:15,629 | train | INFO | === E0010 Validate on shard_09.jsonl ===
+2025-10-12 23:42:35,232 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-13 00:16:40,591 | train | INFO | VAL loss=0.0547 edge=35.63% promo=90.20% wdl=57.77% in 34m05s | GPU mem 1366MB (peak 7898MB)
+2025-10-13 00:16:47,816 | train | INFO | Checkpoint saved for epoch 10
+2025-10-13 00:16:47,816 | train | INFO | === E0010 Train on shard_01.jsonl ===
+2025-10-13 00:17:05,218 | train | INFO | Indexed 1,332,580 lines from shard_01.jsonl
+2025-10-13 01:59:27,607 | train | INFO | Shard shard_01.jsonl done in 1h42m | GPU mem 2165MB (peak 7898MB)
+2025-10-13 01:59:27,730 | train | INFO | === E0011 Validate on shard_09.jsonl ===
+2025-10-13 01:59:46,638 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-13 02:33:54,318 | train | INFO | VAL loss=0.0593 edge=36.78% promo=90.20% wdl=57.62% in 34m07s | GPU mem 1366MB (peak 7898MB)
+2025-10-13 02:34:01,226 | train | INFO | Checkpoint saved for epoch 11
+2025-10-13 02:34:01,227 | train | INFO | === E0011 Train on shard_02.jsonl ===
+2025-10-13 02:34:21,878 | train | INFO | Indexed 1,309,634 lines from shard_02.jsonl
+2025-10-13 04:14:53,086 | train | INFO | Shard shard_02.jsonl done in 1h40m | GPU mem 2165MB (peak 7898MB)
+2025-10-13 04:14:53,196 | train | INFO | === E0012 Validate on shard_09.jsonl ===
+2025-10-13 04:15:12,219 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-13 04:49:24,876 | train | INFO | VAL loss=0.0593 edge=37.95% promo=90.20% wdl=58.66% in 34m12s | GPU mem 1366MB (peak 7898MB)
+2025-10-13 04:49:31,979 | train | INFO | Checkpoint saved for epoch 12
+2025-10-13 04:49:31,980 | train | INFO | === E0012 Train on shard_03.jsonl ===
+2025-10-13 04:49:51,277 | train | INFO | Indexed 1,335,331 lines from shard_03.jsonl
+2025-10-13 06:32:20,752 | train | INFO | Shard shard_03.jsonl done in 1h42m | GPU mem 2165MB (peak 7898MB)
+2025-10-13 06:32:20,875 | train | INFO | === E0013 Validate on shard_09.jsonl ===
+2025-10-13 06:32:41,256 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-13 07:07:01,892 | train | INFO | VAL loss=0.0596 edge=38.96% promo=90.20% wdl=59.55% in 34m20s | GPU mem 1366MB (peak 7898MB)
+2025-10-13 07:07:09,054 | train | INFO | Checkpoint saved for epoch 13
+2025-10-13 07:07:09,054 | train | INFO | === E0013 Train on shard_04.jsonl ===
+2025-10-13 07:07:28,113 | train | INFO | Indexed 1,328,381 lines from shard_04.jsonl
+2025-10-13 08:49:22,871 | train | INFO | Shard shard_04.jsonl done in 1h41m | GPU mem 2165MB (peak 7898MB)
+2025-10-13 08:49:22,995 | train | INFO | === E0014 Validate on shard_09.jsonl ===
+2025-10-13 08:49:42,641 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-13 09:24:07,708 | train | INFO | VAL loss=0.0562 edge=39.56% promo=90.20% wdl=60.85% in 34m25s | GPU mem 1366MB (peak 7898MB)
+2025-10-13 09:24:15,582 | train | INFO | Checkpoint saved for epoch 14
+2025-10-13 09:24:15,584 | train | INFO | === E0014 Train on shard_05.jsonl ===
+2025-10-13 09:24:33,991 | train | INFO | Indexed 1,357,107 lines from shard_05.jsonl
+2025-10-13 11:08:40,171 | train | INFO | Shard shard_05.jsonl done in 1h44m | GPU mem 2165MB (peak 7898MB)
+2025-10-13 11:08:40,323 | train | INFO | === E0015 Validate on shard_09.jsonl ===
+2025-10-13 11:08:59,910 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-13 11:43:33,506 | train | INFO | VAL loss=0.0550 edge=36.49% promo=90.20% wdl=57.63% in 34m33s | GPU mem 1366MB (peak 7898MB)
+2025-10-13 11:43:42,518 | train | INFO | Checkpoint saved for epoch 15
+2025-10-13 11:43:42,519 | train | INFO | === E0015 Train on shard_06.jsonl ===
+2025-10-13 11:44:02,257 | train | INFO | Indexed 1,336,504 lines from shard_06.jsonl
+2025-10-13 13:26:38,798 | train | INFO | Shard shard_06.jsonl done in 1h42m | GPU mem 2165MB (peak 7898MB)
+2025-10-13 13:26:38,941 | train | INFO | === E0016 Validate on shard_09.jsonl ===
+2025-10-13 13:26:59,559 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-13 14:01:24,908 | train | INFO | VAL loss=0.0581 edge=37.29% promo=90.20% wdl=57.74% in 34m25s | GPU mem 1366MB (peak 7898MB)
+2025-10-13 14:01:32,906 | train | INFO | Checkpoint saved for epoch 16
+2025-10-13 14:01:32,906 | train | INFO | === E0016 Train on shard_07.jsonl ===
+2025-10-13 14:01:50,432 | train | INFO | Indexed 1,341,890 lines from shard_07.jsonl
+2025-10-13 16:29:09,466 | train | INFO | Shard shard_07.jsonl done in 2h27m | GPU mem 2165MB (peak 7898MB)
+2025-10-13 16:29:09,609 | train | INFO | === E0017 Validate on shard_09.jsonl ===
+2025-10-13 16:29:27,237 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-13 17:04:29,538 | train | INFO | VAL loss=0.0585 edge=37.89% promo=90.20% wdl=58.16% in 35m02s | GPU mem 1366MB (peak 7898MB)
+2025-10-13 17:04:37,066 | train | INFO | Checkpoint saved for epoch 17
+2025-10-13 17:04:37,066 | train | INFO | === E0017 Train on shard_08.jsonl ===
+2025-10-13 17:04:57,094 | train | INFO | Indexed 1,336,016 lines from shard_08.jsonl
+2025-10-13 18:47:21,585 | train | INFO | Shard shard_08.jsonl done in 1h42m | GPU mem 2165MB (peak 7898MB)
+2025-10-13 18:47:21,717 | train | INFO | === E0018 Validate on shard_09.jsonl ===
+2025-10-13 18:47:40,845 | train | INFO | Indexed 1,366,082 lines from shard_09.jsonl
+2025-10-13 19:22:19,429 | train | INFO | VAL loss=0.0610 edge=38.88% promo=90.20% wdl=58.67% in 34m38s | GPU mem 1366MB (peak 7898MB)
+2025-10-13 19:22:26,773 | train | INFO | Checkpoint saved for epoch 18
+2025-10-13 19:22:26,773 | train | INFO | === E0018 Train on shard_00.jsonl ===
+2025-10-13 19:22:44,496 | train | INFO | Indexed 1,342,059 lines from shard_00.jsonl

@@ -1,0 +1,86 @@
+2025-10-15 09:28:05,316 | finetune | INFO | ======================================================================
+2025-10-15 09:28:05,316 | finetune | INFO | Starting FINETUNING (Combined Base+Finetune for ALL shards 00-09)
+2025-10-15 09:28:05,316 | finetune | INFO | Loading pretrained model from: runs/chess/checkpoints/checkpoint_epoch_18.pt
+2025-10-15 09:28:05,317 | finetune | INFO | Finetuning data: data/shards_finetune
+2025-10-15 09:28:05,317 | finetune | INFO | Base training data: data/shards/
+2025-10-15 09:28:05,317 | finetune | INFO | ALL shards will combine positional + tactical data
+2025-10-15 09:28:05,317 | finetune | INFO | Learning rate: 3.00e-05 (constant, no scheduler)
+2025-10-15 09:28:05,317 | finetune | INFO | ======================================================================
+2025-10-15 09:28:05,881 | finetune | INFO | Loading pretrained weights from: runs/chess/checkpoints/checkpoint_epoch_18.pt
+2025-10-15 09:28:08,646 | finetune | INFO | Loaded pretrained model from epoch 18
+2025-10-15 09:28:08,646 | finetune | INFO | Successfully loaded pretrained weights!
+2025-10-15 09:28:08,646 | finetune | INFO | Model is now ready for finetuning on combined base+tactical data.
+2025-10-15 09:28:09,066 | finetune | INFO | Using constant learning rate: 3.00e-05
+2025-10-15 09:28:09,068 | finetune | INFO | No previous finetuning checkpoint found. Starting fresh finetune.
+2025-10-15 09:28:09,068 | finetune | INFO | 
+======================================================================
+2025-10-15 09:28:09,068 | finetune | INFO | Starting infinite finetuning loop with COMBINED datasets...
+2025-10-15 09:28:09,068 | finetune | INFO | All shards (00-09) will mix positional + tactical data
+2025-10-15 09:28:09,068 | finetune | INFO | Press Ctrl+C to stop and save checkpoint
+2025-10-15 09:28:09,068 | finetune | INFO | ======================================================================
+
+2025-10-15 09:28:09,068 | finetune | INFO | === Finetune E0000 on COMBINED shard_00.jsonl ===
+2025-10-15 09:28:09,069 | finetune | INFO |     Combining: data/shards/shard_00.jsonl + data/shards_finetune/shard_00.jsonl
+2025-10-15 12:38:23,859 | finetune | INFO | Shard shard_00.jsonl done in 3h09m | GPU mem 1355MB (peak 7405MB)
+2025-10-15 12:38:24,353 | finetune | INFO | === Finetune E0001 Validate on COMBINED shard_09.jsonl ===
+2025-10-15 12:38:24,353 | finetune | INFO |     Combining: data/shards/shard_09.jsonl + data/shards_finetune/shard_09.jsonl
+2025-10-15 13:53:54,435 | finetune | INFO | FINETUNE VAL loss=0.0383 edge=57.02% promo=99.94% wdl=70.84% in 1h14m | GPU mem 1357MB (peak 7405MB)
+2025-10-15 13:54:01,849 | finetune | INFO | Finetuning checkpoint saved for epoch 1
+2025-10-15 13:54:01,850 | finetune | INFO | === Finetune E0001 on COMBINED shard_01.jsonl ===
+2025-10-15 13:54:01,850 | finetune | INFO |     Combining: data/shards/shard_01.jsonl + data/shards_finetune/shard_01.jsonl
+2025-10-15 17:40:55,900 | finetune | INFO | Shard shard_01.jsonl done in 3h46m | GPU mem 1355MB (peak 7405MB)
+2025-10-15 17:40:56,396 | finetune | INFO | === Finetune E0002 Validate on COMBINED shard_09.jsonl ===
+2025-10-15 17:40:56,397 | finetune | INFO |     Combining: data/shards/shard_09.jsonl + data/shards_finetune/shard_09.jsonl
+2025-10-15 18:39:13,089 | finetune | INFO | FINETUNE VAL loss=0.0381 edge=57.83% promo=99.94% wdl=71.94% in 57m45s | GPU mem 1357MB (peak 7405MB)
+2025-10-15 18:39:20,254 | finetune | INFO | Finetuning checkpoint saved for epoch 2
+2025-10-15 18:39:20,255 | finetune | INFO | === Finetune E0002 on COMBINED shard_02.jsonl ===
+2025-10-15 18:39:20,255 | finetune | INFO |     Combining: data/shards/shard_02.jsonl + data/shards_finetune/shard_02.jsonl
+2025-10-15 22:50:03,128 | finetune | INFO | Shard shard_02.jsonl done in 4h09m | GPU mem 1355MB (peak 7405MB)
+2025-10-15 22:50:03,575 | finetune | INFO | === Finetune E0003 Validate on COMBINED shard_09.jsonl ===
+2025-10-15 22:50:03,576 | finetune | INFO |     Combining: data/shards/shard_09.jsonl + data/shards_finetune/shard_09.jsonl
+2025-10-15 23:48:12,169 | finetune | INFO | FINETUNE VAL loss=0.0373 edge=58.35% promo=99.94% wdl=72.02% in 57m37s | GPU mem 1357MB (peak 7405MB)
+2025-10-15 23:48:21,715 | finetune | INFO | Finetuning checkpoint saved for epoch 3
+2025-10-15 23:48:21,715 | finetune | INFO | === Finetune E0003 on COMBINED shard_03.jsonl ===
+2025-10-15 23:48:21,715 | finetune | INFO |     Combining: data/shards/shard_03.jsonl + data/shards_finetune/shard_03.jsonl
+2025-10-16 02:48:09,746 | finetune | INFO | Shard shard_03.jsonl done in 2h59m | GPU mem 1355MB (peak 7405MB)
+2025-10-16 02:48:10,224 | finetune | INFO | === Finetune E0004 Validate on COMBINED shard_09.jsonl ===
+2025-10-16 02:48:10,224 | finetune | INFO |     Combining: data/shards/shard_09.jsonl + data/shards_finetune/shard_09.jsonl
+2025-10-16 03:46:16,569 | finetune | INFO | FINETUNE VAL loss=0.0369 edge=58.70% promo=99.94% wdl=72.59% in 57m35s | GPU mem 1357MB (peak 7405MB)
+2025-10-16 03:46:24,160 | finetune | INFO | Finetuning checkpoint saved for epoch 4
+2025-10-16 03:46:24,161 | finetune | INFO | === Finetune E0004 on COMBINED shard_04.jsonl ===
+2025-10-16 03:46:24,161 | finetune | INFO |     Combining: data/shards/shard_04.jsonl + data/shards_finetune/shard_04.jsonl
+2025-10-16 06:45:34,730 | finetune | INFO | Shard shard_04.jsonl done in 2h58m | GPU mem 1355MB (peak 7405MB)
+2025-10-16 06:45:35,212 | finetune | INFO | === Finetune E0005 Validate on COMBINED shard_09.jsonl ===
+2025-10-16 06:45:35,212 | finetune | INFO |     Combining: data/shards/shard_09.jsonl + data/shards_finetune/shard_09.jsonl
+2025-10-16 07:43:38,952 | finetune | INFO | FINETUNE VAL loss=0.0376 edge=58.98% promo=99.94% wdl=72.60% in 57m34s | GPU mem 1357MB (peak 7405MB)
+2025-10-16 07:43:46,920 | finetune | INFO | Finetuning checkpoint saved for epoch 5
+2025-10-16 07:43:46,921 | finetune | INFO | === Finetune E0005 on COMBINED shard_05.jsonl ===
+2025-10-16 07:43:46,928 | finetune | INFO |     Combining: data/shards/shard_05.jsonl + data/shards_finetune/shard_05.jsonl
+2025-10-16 10:45:06,522 | finetune | INFO | Shard shard_05.jsonl done in 3h00m | GPU mem 1355MB (peak 7405MB)
+2025-10-16 10:45:07,022 | finetune | INFO | === Finetune E0006 Validate on COMBINED shard_09.jsonl ===
+2025-10-16 10:45:07,023 | finetune | INFO |     Combining: data/shards/shard_09.jsonl + data/shards_finetune/shard_09.jsonl
+2025-10-16 11:43:12,402 | finetune | INFO | FINETUNE VAL loss=0.0380 edge=59.23% promo=99.94% wdl=72.57% in 57m34s | GPU mem 1357MB (peak 7405MB)
+2025-10-16 11:43:20,109 | finetune | INFO | Finetuning checkpoint saved for epoch 6
+2025-10-16 11:43:20,110 | finetune | INFO | === Finetune E0006 on COMBINED shard_06.jsonl ===
+2025-10-16 11:43:20,110 | finetune | INFO |     Combining: data/shards/shard_06.jsonl + data/shards_finetune/shard_06.jsonl
+2025-10-16 15:09:01,843 | finetune | INFO | Shard shard_06.jsonl done in 3h24m | GPU mem 1355MB (peak 7405MB)
+2025-10-16 15:09:02,414 | finetune | INFO | === Finetune E0007 Validate on COMBINED shard_09.jsonl ===
+2025-10-16 15:09:02,414 | finetune | INFO |     Combining: data/shards/shard_09.jsonl + data/shards_finetune/shard_09.jsonl
+2025-10-16 16:11:01,110 | finetune | INFO | FINETUNE VAL loss=0.0393 edge=59.43% promo=99.94% wdl=72.55% in 1h01m | GPU mem 1357MB (peak 7405MB)
+2025-10-16 16:11:09,068 | finetune | INFO | Finetuning checkpoint saved for epoch 7
+2025-10-16 16:11:09,070 | finetune | INFO | === Finetune E0007 on COMBINED shard_07.jsonl ===
+2025-10-16 16:11:09,071 | finetune | INFO |     Combining: data/shards/shard_07.jsonl + data/shards_finetune/shard_07.jsonl
+2025-10-16 19:12:17,008 | finetune | INFO | Shard shard_07.jsonl done in 3h00m | GPU mem 1355MB (peak 7405MB)
+2025-10-16 19:12:17,544 | finetune | INFO | === Finetune E0008 Validate on COMBINED shard_09.jsonl ===
+2025-10-16 19:12:17,545 | finetune | INFO |     Combining: data/shards/shard_09.jsonl + data/shards_finetune/shard_09.jsonl
+2025-10-16 20:14:24,845 | finetune | INFO | FINETUNE VAL loss=0.0417 edge=59.53% promo=99.94% wdl=71.69% in 1h01m | GPU mem 1357MB (peak 7405MB)
+2025-10-16 20:14:38,565 | finetune | INFO | Finetuning checkpoint saved for epoch 8
+2025-10-16 20:14:38,566 | finetune | INFO | === Finetune E0008 on COMBINED shard_08.jsonl ===
+2025-10-16 20:14:38,566 | finetune | INFO |     Combining: data/shards/shard_08.jsonl + data/shards_finetune/shard_08.jsonl
+2025-10-17 00:11:18,380 | finetune | INFO | Shard shard_08.jsonl done in 3h55m | GPU mem 1355MB (peak 7405MB)
+2025-10-17 00:11:18,824 | finetune | INFO | === Finetune E0009 Validate on COMBINED shard_09.jsonl ===
+2025-10-17 00:11:18,825 | finetune | INFO |     Combining: data/shards/shard_09.jsonl + data/shards_finetune/shard_09.jsonl
+2025-10-17 01:09:29,047 | finetune | INFO | FINETUNE VAL loss=0.0426 edge=59.63% promo=99.94% wdl=71.86% in 57m39s | GPU mem 1357MB (peak 7405MB)
+2025-10-17 01:09:36,434 | finetune | INFO | Finetuning checkpoint saved for epoch 9
+2025-10-17 01:09:36,434 | finetune | INFO | === Finetune E0009 on COMBINED shard_00.jsonl ===
+2025-10-17 01:09:36,434 | finetune | INFO |     Combining: data/shards/shard_00.jsonl + data/shards_finetune/shard_00.jsonl
