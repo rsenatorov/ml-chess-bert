@@ -1171,9 +1171,9 @@ If you use this code or build upon this work, please cite:
 ```bibtex
 @software{chess_bert_2025,
   title={ChessBert: A Tablebase and Stockfish-Trained Chess Transformer},
-  author={[Robert Senatorov]},
+  author={Robert Senatorov},
   year={2025},
-  url={[https://github.com/rsenatorov/ml-chess-bert.git]}
+  url={https://github.com/rsenatorov/ml-chess-bert.git}
 }
 ```
 
